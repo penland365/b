@@ -1,6 +1,6 @@
 [package]
 name = "b"
-version = "0.0.1-SNAPSHOT"
+version = "0.0.1"
 authors = ["penland365 <Jeffrey.N.Davis@gmail.com>"]
 
 [dependencies]
