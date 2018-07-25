@@ -1,0 +1,11 @@
+[package]
+name = "b"
+version = "0.0.1-SNAPSHOT"
+authors = ["penland365 <Jeffrey.N.Davis@gmail.com>"]
+
+[dependencies]
+clap = "2.32.0"
+version = "3.0.0"
+
+[dev-dependencies]
+quickcheck = "0.6.2"
