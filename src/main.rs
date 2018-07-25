@@ -2,6 +2,10 @@ extern crate clap;
 #[macro_use]
 extern crate version;
 
+#[cfg(test)]
+#[macro_use]
+extern crate quickcheck;
+
 mod b64;
 mod alphabets;
 

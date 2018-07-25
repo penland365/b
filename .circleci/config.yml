@@ -3,6 +3,9 @@ jobs:
   b:
     docker:
       - image: rust:jessie
+        environment: 
+          QUICKCHECK_TESTS: 10000
+          QUICKCHECK_MIN_TESTS_PASSED: 10000
     steps:
       - checkout
       - run:
