@@ -111,4 +111,6 @@ mod tests {
     fn rfc4648_test_vector_foobar_string() {
         assert_eq!(encode_to_base64("foobar"), "Zm9vYmFy");
     }
+
+
 }

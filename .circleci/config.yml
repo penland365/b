@@ -1,0 +1,21 @@
+version: 2
+jobs:
+  b:
+    docker:
+      - image: rust:jessie
+    steps:
+      - checkout
+      - run:
+          name: test 
+          working_directory: b
+          command: cargo test 
+      - run:
+          name: build
+          working_directory: b
+          command: cargo build --release
+
+workflows:
+  version: 2
+  build_test:
+    jobs:
+      - b
